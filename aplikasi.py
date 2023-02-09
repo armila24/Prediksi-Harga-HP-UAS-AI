@@ -8,9 +8,9 @@ pipe = joblib.load(open('pipe.pkl','rb'))
 
 html_temp = """
 <div style ="background-color:#000000;padding:13px;">
-    <h1 style ="color:#eece90;text-align:center;">PROJECT UAS AI</h1>
+    <h1 style ="color:#D3D3D3;text-align:center;">PROJECT UAS AI</h1>
 </div>
-<div style ="background-color:#ffd98e; border-top: solid 1px #cca558; margin-bottom: 24px;">
+<div style ="background-color:#D3D3D3; border-top: solid 1px #cca558; margin-bottom: 24px;">
     <h2 style ="color:black;text-align:center;">Armila Suilistyani & Novi Nur Fauziah</h2>
 </div>
 """
