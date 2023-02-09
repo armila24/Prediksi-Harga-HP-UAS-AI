@@ -1,10 +1,10 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
 #import model
-df = pickle.load(open('df.pkl','rb'))
-pipe = pickle.load(open('pipe.pkl','rb'))
+df = joblib.load(open('df.pkl','rb'))
+pipe = joblib.load(open('pipe.pkl','rb'))
 
 st.title("Prediksi Harga Handphone")
 
